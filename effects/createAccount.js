@@ -1,9 +1,10 @@
-const { ƒ } = require('fire-backend');
-const { validateAccount } = require('./validateAccount');
-
 /*
+ * PlayBlacklisted
  * createAccount
  */
+
+const { ƒ } = require('fire-backend');
+const { validateAccount } = require('./validateAccount');
 
 exports.createAccount = async params => {
   const action = ƒ.root.getNode().getAction('/account');

@@ -1,3 +1,8 @@
+/*
+ * PlayBlacklisted
+ * Test
+ */
+
 const smoke = require('fire-backend-test');
 const { it } = smoke;
 

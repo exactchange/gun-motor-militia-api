@@ -1,8 +1,9 @@
-const nodemailer = require('nodemailer');
-
 /*
+ * PlayBlacklisted
  * sendEmail
  */
+
+const nodemailer = require('nodemailer');
 
 exports.sendEmail = async ({ from, message, subject, to }) => {
   try {

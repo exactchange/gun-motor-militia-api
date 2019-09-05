@@ -1,10 +1,11 @@
+/*
+ * PlayBlacklisted
+ * Node (root)
+ */
+
 const { ƒ } = require('fire-backend');
 const { Account } = require('../actions/Account');
 const { Transaction } = require('../actions/Transaction');
-
-/*
- * Node
- */
 
 class Node extends ƒ.Node {
   constructor() {

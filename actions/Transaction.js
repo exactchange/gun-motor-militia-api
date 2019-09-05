@@ -1,10 +1,11 @@
+/*
+ * PlayBlacklisted
+ * Transaction
+ */
+
 const { ƒ } = require('fire-backend');
 const { createAccount } = require('../effects/createAccount');
 const { processPayment } = require('../effects/processPayment');
-
-/*
- * Transaction
- */
 
 const RETAIL_PRICE = 5.00;
 

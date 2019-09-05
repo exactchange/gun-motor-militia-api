@@ -1,10 +1,10 @@
 {
   "name": "playblacklisted-backend",
   "author": "@exactchange",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Official Website of Blacklisted – A Multiplayer Online Vehicular Battle Arena",
   "scripts": {
-    "start": "node start dbVersion=playblacklisted-0.0.1",
+    "start": "node start dbVersion=playblacklisted-0.0.2",
     "test": "node test"
   },
   "dependencies": {

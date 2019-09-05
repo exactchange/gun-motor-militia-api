@@ -1,9 +1,10 @@
-const { ƒ } = require('fire-backend');
-const { sendEmail } = require('../effects/sendEmail');
-
 /*
+ * PlayBlacklisted
  * Account
  */
+
+const { ƒ } = require('fire-backend');
+const { sendEmail } = require('../effects/sendEmail');
 
 class Account extends ƒ.Action {
   constructor() {
