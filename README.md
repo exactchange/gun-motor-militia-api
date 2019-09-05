@@ -1,11 +1,13 @@
-Install
+#### Official Website of Blacklisted – A Multiplayer Online Vehicular Battle Arena
+
+1. Install
 
 `npm install`
 
-Start
+2. Start
 
 `npm start`
 
-Run tests
+3. Run tests
 
 `npm test`
