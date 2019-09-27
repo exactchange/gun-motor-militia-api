@@ -28,10 +28,10 @@ class Transaction extends ƒ.Action {
    * Handle effects of a PUT to /transaction
    */
 
-  async didPut(params) {
+  async didPut(body) {
     const purchase = await processPayment({
-      ...this.getStateByKey(params.key),
-      email: params.key,
+      ...this.getStateByKey(body.key),
+      email: body.key,
       price: RETAIL_PRICE
     });
 
@@ -39,7 +39,7 @@ class Transaction extends ƒ.Action {
       const { reservedEmails, reservedScreenNames } = ƒ.root.getNode().state;
 
       const account = await createAccount({
-        ...params,
+        ...body,
         purchase,
         reservedEmails,
         reservedScreenNames

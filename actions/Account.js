@@ -25,9 +25,9 @@ class Account extends ƒ.Action {
    * Handle effects of a PUT to /account
    */
 
-  async didPut(params) {
-    const screenName = this.state.screenName[params.key];
-    const to = this.state.userName[params.key];
+  async didPut(body) {
+    const screenName = this.state.screenName[body.key];
+    const to = this.state.userName[body.key];
 
     const info = await sendEmail({
       to,
